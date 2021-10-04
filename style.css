@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #f1f1f1;
+    font-family: Rancho, cursive;
+}
+
+h1 
+{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 60px;
+}
+
+
+blockquote::before,
+blockquote::after {
+  position: absolute;
+  height  : 3rem;
+  font    : 6rem/100% Georgia, "Times New Roman", Times, serif;
+}
+
+blockquote::before {
+    content: '“';
+    top    : 0.8rem;
+    left   : 0.9rem;
+  }
+  
+  blockquote::after {
+    content: '”';
+    bottom : 0.8rem;
+    right  : 0.8rem;
+  }
+
+.box 
+{
+    color: white;
+    background-color: #573A57;
+    box-shadow: 10px 10px 40px red;
+    position: absolute;
+    font-size: 40px;
+    top: 45%;
+    left: 50%;
+    border-radius: 10px;
+    width: 600px;
+    padding: 54px;
+    max-width: 1000px;
+    max-height: 1000px;
+    transform: translate(-50%, -50%);
+
+}
+.box 
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn
+{
+    padding: 15px 25px;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #f1f1f1;
+    background-color:#573A57;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+ 
+   
+    
+}
+.btn:hover
+{
+    background-color:lavender;
+    color: #573A57;
+
+}

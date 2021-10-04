@@ -10,7 +10,6 @@ var myQuotes = [
 
 //this will generate random text from an array
 
-
 function newQuote(){
     let randomText = myQuotes[Math.floor(Math.random()*myQuotes.length)];
     document.getElementById('display').innerHTML = randomText;
@@ -18,3 +17,5 @@ function newQuote(){
 }
 
 newQuote();
+
+
