@@ -15,7 +15,7 @@ function newQuote(){
     document.getElementById('display').innerHTML = randomText;
     console.log(randomText); 
 }
-
+console.log('sandhya');
 newQuote();
 
 
