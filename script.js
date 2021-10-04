@@ -12,7 +12,6 @@ var myQuotes = [
 
 function newQuote(){
     let randomText = myQuotes[Math.floor(Math.random()*myQuotes.length)];
-   
     document.getElementById('display').innerHTML = randomText;
     console.log(randomText);
     
