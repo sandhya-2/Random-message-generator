@@ -19,7 +19,6 @@ h1
     font-size: 60px;
 }
 
-
 blockquote::before,
 blockquote::after {
   position: absolute;
@@ -62,7 +61,7 @@ blockquote::before {
     text-align: center;
 }
 
-a.button
+button.btn
 {
     display:inline-block;
     padding:0.3em 1.2em;
@@ -72,22 +71,16 @@ a.button
     box-sizing: border-box;
     text-decoration: none;
     color:black;
+    background-color:transparent;
     font-size: medium;
     text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
     text-align:center;
     transition: all 0.2s;  
     
 }
-a.button:hover
+button.btn:hover
 {
     background-color:white;
-    color: #573A57;
+   
+}
 
-}
-@media all and (max-width:30em)
-{
-    a.button3{
-    display:block;
-    margin:0.2em auto;
-    }
-}
